@@ -1,0 +1,71 @@
+{
+  "name": "generator-aware-weekly-mailing-generator",
+  "version": "0.0.0",
+  "description": "This is a scaffold for the aware emails weekly.",
+  "author": {
+    "name": "Alex Mosseri",
+    "email": "aljmo98@gmail.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generator/app/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-xo": "^0.25.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "redux-localstorage": "^1.0.0-rc5",
+    "wiredep": "^4.0.0",
+    "yeoman-environment": "^2.4.0",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "repository": "almoss1/generator-aware-weekly-mailing-generator",
+  "license": "MIT"
+}

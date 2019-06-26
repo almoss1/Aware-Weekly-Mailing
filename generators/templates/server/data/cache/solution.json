@@ -1,0 +1,52 @@
+[
+   {
+      "SolutionId": 109,
+      "BuildingId": 146,
+      "BuildingName": "BuildingLink Office",
+      "SolutionName": "BuildingLink Office Leak Detection Solution",
+      "Subscription": "Subscribed",
+      "EmailAddresses": "",
+      "SendWeeklySummaryEmail": false,
+      "SendAsPDF": false
+   },
+   {
+      "SolutionId": 116,
+      "BuildingId": 447,
+      "BuildingName": "200 Chambers Street Condominium",
+      "SolutionName": "200 Chambers Street Condominium Leak Detection",
+      "Subscription": "Beta",
+      "EmailAddresses": "",
+      "SendWeeklySummaryEmail": true,
+      "SendAsPDF": false
+   },
+   {
+      "SolutionId": 103,
+      "BuildingId": 480,
+      "BuildingName": "240 Central Park South",
+      "SolutionName": "240 Central Park South Leak Detection",
+      "Subscription": "Beta",
+      "EmailAddresses": "",
+      "SendWeeklySummaryEmail": true,
+      "SendAsPDF": false
+   },
+   {
+      "SolutionId": 108,
+      "BuildingId": 866,
+      "BuildingName": "The Lucida",
+      "SolutionName": "The Lucida Leak Detection",
+      "Subscription": "Beta",
+      "EmailAddresses": "",
+      "SendWeeklySummaryEmail": true,
+      "SendAsPDF": false
+   },
+   {
+      "SolutionId": 105,
+      "BuildingId": 3782,
+      "BuildingName": "50 United Nations Plaza",
+      "SolutionName": "50 United Nations Plaza Leak Detection",
+      "Subscription": "Subscribed",
+      "EmailAddresses": "",
+      "SendWeeklySummaryEmail": false,
+      "SendAsPDF": false
+   }
+]
