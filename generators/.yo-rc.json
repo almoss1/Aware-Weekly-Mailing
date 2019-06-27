@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Alex Mosseri",
+      "authorEmail": "alexm@buildinglink.com",
+      "authorUrl": ""
+    }
+  }
+}

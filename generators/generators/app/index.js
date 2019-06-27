@@ -11,7 +11,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-generator')} generator!`)
+      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`)
     );
 
     const prompts = [
@@ -65,13 +65,11 @@ module.exports = class extends Generator {
 
 
 
-
-
 var yeoman = require('yeoman-environment');
 var env = yeoman.createEnv();
 
 
-env.register(require.resolve('generator-aware-weekly-emailing-generator'), 'npm:app');
+env.register(require.resolve('generator-aware-weekly-emailing-g'), 'npm:app');
 env.run('npm:app', done);
 
 env.lookup(function () {
@@ -79,11 +77,15 @@ env.lookup(function () {
 });
 
 
+
+
 // Main package function
-function awareWeeklyMailingGenerator(input) {
+function awareWeeklyMailingG(input) {
   // Returns true if the input is either undefined, null, or empty, false otherwise
   return (input === undefined || input === null || input === '');
 }
 
 // Make the main function available to other packages that require us
-module.exports = awareWeeklyMailingGenerator;
+module.exports = awareWeeklyMailingG;
+
+
