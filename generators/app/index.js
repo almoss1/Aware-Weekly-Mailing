@@ -8,7 +8,7 @@ const chalk = require('chalk');
 const yosay = require('yosay');
 
 module.exports = class extends Generator {
-  prompting() {
+  async prompting() {
     // Have Yeoman greet the user.
     this.log(
       yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`)
