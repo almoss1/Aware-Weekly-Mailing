@@ -1,0 +1,106 @@
+[
+   {
+      "SolutionId": 105,
+      "Target": "34A Powder Wall",
+      "DeviceId": "333437397E376F03",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Contact Leak Far",
+      "DeviceId": "3334373961378502",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 105,
+      "Target": "30A Powder Ceiling SII",
+      "DeviceId": "3334373962376303",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Contact Leak Far-Harsh Desk",
+      "DeviceId": "333437395E376B03",
+      "Voltage": null,
+      "Battery": null,
+      "Online": 0
+   },
+   {
+      "SolutionId": 105,
+      "Target": "32A Powder Wall",
+      "DeviceId": "333437395E378802",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 105,
+      "Target": "30A Powder Ceiling SI",
+      "DeviceId": "333437396C378802",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Contact Leak Near",
+      "DeviceId": "3334373977376403",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Harsh-desk",
+      "DeviceId": "3737333853376615",
+      "Voltage": null,
+      "Battery": null,
+      "Online": 0
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Harsh's Blue Circle Sticker Sensor",
+      "DeviceId": "3334373954376C03",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 1
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Sensor 3 On Aware Demo Board",
+      "DeviceId": "3334373959378C02",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 0
+   },
+   {
+      "SolutionId": 103,
+      "Target": "2L Kitchen Sink",
+      "DeviceId": "3334373961376B03",
+      "Voltage": null,
+      "Battery": null,
+      "Online": 0
+   },
+   {
+      "SolutionId": 105,
+      "Target": "35B 3rd Bedroom Closet Access Panel",
+      "DeviceId": "3334373958378802",
+      "Voltage": 3.3,
+      "Battery": 100,
+      "Online": 0
+   },
+   {
+      "SolutionId": 109,
+      "Target": "Harsh Test Device",
+      "DeviceId": "3737333853378C15",
+      "Voltage": null,
+      "Battery": null,
+      "Online": 0
+   }
+]

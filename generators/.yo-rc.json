@@ -1,0 +1,14 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Alex Mosseri",
+      "authorEmail": "alexm@buildinglink.com",
+      "authorUrl": ""
+    }
+  },
+  "generator-karma": {
+    "frameworks": "jasmine",
+    "browsers": "PhantomJS",
+    "bower-components-path": "bower_components"
+  }
+}

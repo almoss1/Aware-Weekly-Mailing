@@ -1,0 +1,1064 @@
+[
+   {
+      "AlertDate": "2019-06-18T18:45:09.250Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T18:46:19.233Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T18:56:09.243Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T18:56:14.920Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T18:56:14.920Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:03:09.140Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:03:14.883Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:04:14.923Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:07:09.383Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:07:14.830Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:07:14.830Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:08:14.860Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:09:09.110Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:09:09.110Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:10:14.840Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:19:14.816Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:21:13.326Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:26:09.056Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:26:14.730Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:31:11.130Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:31:14.773Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:31:14.773Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:31:14.773Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:32:08.973Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:32:08.973Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T21:13:35.903Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-18T21:24:12.803Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T21:26:09.666Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-18T21:54:34.506Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T22:13:50.640Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437396C378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 736,
+      "Target": "30A Powder Ceiling SI"
+   },
+   {
+      "AlertDate": "2019-06-18T22:37:35.566Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T22:38:23.693Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-18T22:38:23.693Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-20T01:48:20.156Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "3334373962376303",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 737,
+      "Target": "30A Powder Ceiling SII"
+   },
+   {
+      "AlertDate": "2019-06-20T01:50:12.976Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T01:51:02.103Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T04:04:22.910Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "3334373958378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 752,
+      "Target": "35B 3rd Bedroom Closet Access Panel"
+   },
+   {
+      "AlertDate": "2019-06-20T12:09:53.890Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-20T14:20:38.586Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E376B03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 789,
+      "Target": "Contact Leak Far-Harsh Desk"
+   },
+   {
+      "AlertDate": "2019-06-20T01:50:12.976Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T01:50:12.976Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T01:51:02.103Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T04:04:22.910Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "3334373958378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 752,
+      "Target": "35B 3rd Bedroom Closet Access Panel"
+   },
+   {
+      "AlertDate": "2019-06-20T12:09:53.890Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-20T14:20:38.586Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E376B03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 789,
+      "Target": "Contact Leak Far-Harsh Desk"
+   },
+   {
+      "AlertDate": "2019-06-20T15:05:13.193Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E376B03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 789,
+      "Target": "Contact Leak Far-Harsh Desk"
+   },
+   {
+      "AlertDate": "2019-06-20T22:49:28.173Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-21T13:05:23.393Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-21T13:05:24.083Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-21T13:13:57.540Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-21T14:30:42.970Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-21T15:04:43.450Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-21T19:40:50.680Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-23T01:51:00.803Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-23T13:18:10.866Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-23T13:21:10.806Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-18T18:43:09.316Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T18:58:09.170Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T18:59:09.166Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T18:59:14.890Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:02:09.186Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:04:09.140Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:04:14.923Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:26:09.056Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:26:14.730Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T22:38:26.290Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-20T01:50:12.976Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T14:20:38.586Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E376B03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 789,
+      "Target": "Contact Leak Far-Harsh Desk"
+   },
+   {
+      "AlertDate": "2019-06-20T01:48:20.156Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "3334373962376303",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 737,
+      "Target": "30A Powder Ceiling SII"
+   },
+   {
+      "AlertDate": "2019-06-20T01:48:44.183Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-20T13:26:33.260Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437396C378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 736,
+      "Target": "30A Powder Ceiling SI"
+   },
+   {
+      "AlertDate": "2019-06-20T14:20:38.586Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E376B03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 789,
+      "Target": "Contact Leak Far-Harsh Desk"
+   },
+   {
+      "AlertDate": "2019-06-21T13:05:24.083Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-21T13:13:57.540Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-24T13:25:34.920Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-25T06:13:18.740Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373962376303",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 737,
+      "Target": "30A Powder Ceiling SII"
+   },
+   {
+      "AlertDate": "2019-06-25T12:30:42.506Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T21:13:35.903Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-18T21:16:53.510Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "3334373962376303",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 737,
+      "Target": "30A Powder Ceiling SII"
+   },
+   {
+      "AlertDate": "2019-06-18T21:26:09.666Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-18T22:38:26.290Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-20T01:48:44.183Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-20T13:26:33.260Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437396C378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 736,
+      "Target": "30A Powder Ceiling SI"
+   },
+   {
+      "AlertDate": "2019-06-21T13:05:23.393Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-21T13:18:28.310Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373962376303",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 737,
+      "Target": "30A Powder Ceiling SII"
+   },
+   {
+      "AlertDate": "2019-06-25T03:56:43.613Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437397E376F03",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 739,
+      "Target": "34A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T18:46:19.233Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T18:59:14.890Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:00:09.156Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:01:09.143Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:19:11.196Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:19:14.816Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T19:31:14.773Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T22:37:53.623Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "3334373962376303",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 737,
+      "Target": "30A Powder Ceiling SII"
+   },
+   {
+      "AlertDate": "2019-06-20T01:49:44.663Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-20T12:09:53.890Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-20T01:48:44.183Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373961378502",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 787,
+      "Target": "Contact Leak Far"
+   },
+   {
+      "AlertDate": "2019-06-20T01:51:02.103Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T12:09:53.890Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-25T13:24:41.750Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-25T14:03:53.503Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T19:03:09.140Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853378C15",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 785,
+      "Target": "Harsh Test Device"
+   },
+   {
+      "AlertDate": "2019-06-18T19:03:14.883Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3737333853376615",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 786,
+      "Target": "Harsh-desk"
+   },
+   {
+      "AlertDate": "2019-06-18T22:37:35.566Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T22:39:36.823Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-18T22:39:36.823Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T01:51:02.103Z",
+      "AlertEmail": "rm@fiftyunplaza.com",
+      "DeviceId": "333437395E378802",
+      "BuildingId": 3782,
+      "SolutionId": 105,
+      "TargetId": 738,
+      "Target": "32A Powder Wall"
+   },
+   {
+      "AlertDate": "2019-06-20T22:49:28.173Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-22T13:20:17.460Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-22T13:16:17.693Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-24T13:21:24.036Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-24T13:18:26.466Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-24T13:22:50.203Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-24T13:22:50.203Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-25T13:17:57.343Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-25T13:21:57.246Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373977376403",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 788,
+      "Target": "Contact Leak Near"
+   },
+   {
+      "AlertDate": "2019-06-25T13:19:41.770Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   },
+   {
+      "AlertDate": "2019-06-25T13:18:41.780Z",
+      "AlertEmail": "harsh@buildinglink.com",
+      "DeviceId": "3334373954376C03",
+      "BuildingId": 146,
+      "SolutionId": 109,
+      "TargetId": 807,
+      "Target": "Harsh's Blue Circle Sticker Sensor"
+   }
+]
