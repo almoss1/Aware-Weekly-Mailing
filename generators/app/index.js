@@ -4,7 +4,7 @@
 var Generator = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
-
+const fse = require('fs-extra')
 
 
 module.exports = class extends Generator {
@@ -44,45 +44,27 @@ module.exports = class extends Generator {
   }
 
   writing() {
-      this.fs.copy(
-        this.templatePath('_package.json'),
-        this.destinationPath('package.json')
-        );
-      this.fs.copy(
-        this.templatePath('_README.md'),
-        this.destinationPath('README.md'));
 
-      this.fs.copy(
-        this.templatePath('_generators/templates/server/_README.md'),
-        this.destinationPath('generators/templates/server/README.md'));
 
-      this.fs.copy(
-        this.templatePath('_generators/templates/server/_package.json'),
-        this.destinationPath('generators/templates/server/package.json'));
+    // fse.copySync('_package.json', 'package.json')
+  //   fse.copySync('_README.md', 'README.md')
+     fse.copySync('_generators/templates/server', 'generators/templates/server')
+    //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
+  //   fse.copySync('_generators/templates/server/_package.json', 'generators/templates/server/_package.json')
+  //   fse.copySync('_generators/templates/server/_modernizr.json', 'generators/templates/server/_modernizr.json')
+  //   fse.copySync('_generators/templates/server/_ldws-server.code-workspace', 'generators/templates/server/ldws-server.code-workspace')
 
-      this.fs.copy(
-        this.templatePath('_generators/templates/server/_modernizr.json'),
-        this.destinationPath('generators/templates/server/modernizr.json'));
 
-      this.fs.copy(
-        this.templatePath('_generators/templates/server/_ldws-server.code-workspace'),
-        this.destinationPath('generators/templates/server/ldws-server.code-workspace'));
 
-      
-  
 
-  //Copy application files
+  // //Copy application files
 
-  /////Generators
-  /////APP
-  
-this.fs.copy(
-  this.templatePath('_app/templates/_dummyfile.txt'),
-  this.destinationPath('app/templates/dummyfile.txt'));
-      
-this.fs.copy(
-  this.templatePath('_app/templates/_dummyfile.txt'),
-  this.destinationPath('app/index.js'));
+  // /////Generators
+  // /////APP
+  //   fse.copySync('_app/templates/_dummyfile.txt', '_app/templates/_dummyfile.txt')
+  //   fse.copySync('_app/templates/_index.js', '_app/templates/_index.js')
+ 
+
       
 
   ///templates
@@ -91,146 +73,69 @@ this.fs.copy(
     ///////cache
 
      /////alerts
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/cache/_alerts.json'),
-    this.destinationPath('generators/templates/server/data/cache/alerts.json'));
-  ////solutions
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/cache/_solutions.json'),
-    this.destinationPath('generators/templates/server/data/cache/alerts.json'));
-    ////status
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/cache/_status.json'),
-    this.destinationPath('generators/templates/server/data/cache/alerts.json'));
-  ///config
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/_database.txt'),
-    this.destinationPath('generators/templates/server/data/config/database.txt'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/_sentry.txt'),
-    this.destinationPath('generators/templates/server/data/config/sentry.txt'));
 
 
-  //////sql
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/sql/_alerts.sql'),
-    this.destinationPath('generators/templates/server/data/config/sql/alerts.sql'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/sql/_minmax.sql'),
-    this.destinationPath('generators/templates/server/data/config/sql/minmax.sql'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/sql/_solutions.sql'),
-    this.destinationPath('generators/templates/server/data/config/sql/solutions.sql'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/sql/_status.sql'),
-    this.destinationPath('generators/templates/server/data/config/sql/status.sql'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/config/sql/_wetndry.sql'),
-    this.destinationPath('generators/templates/server/data/config/sql/wetndry.sql'));
-    
-        /////logs
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/logs'),
-    this.destinationPath('generators/templates/server/data/logs'));
-
-    ///.gitkeep
-
-              ///////secrets
-
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/secrets/_aware-storage-account.txt'),
-    this.destinationPath('generators/templates/server/data/secrets/aware-storage-account.txt'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/secrets/_dababase-aware.txt'),
-    this.destinationPath('generators/templates/server/data/secrets/dababase-aware.txt'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/secrets/_dababase-dev.txt'),
-    this.destinationPath('generators/templates/server/data/secrets/dababase-dev.txt'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/secrets/_dababase-prod.txt'),
-    this.destinationPath('generators/templates/server/data/secrets/dababase-prod.txt'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/data/secrets/_sentry-test.txt'),
-    this.destinationPath('generators/templates/server/data/secrets/sentry-test.txt'));
+  //   fse.copySync('_generators/templates/server/data/cache/_alerts.json', 'generators/templates/server/data/cache/alerts.json')
+  //   fse.copySync('_generators/templates/server/data/cache/_solutions.json', 'generators/templates/server/data/cache/solutions.json')
+  //   fse.copySync('_generators/templates/server/data/cache/_status.json', 'generators/templates/server/data/cache/status.json')
+  //   fse.copySync('_generators/templates/server/data/config/_database.txt', 'generators/templates/server/data/config/database.txt')
+  //   fse.copySync('_generators/templates/server/data/config/_sentry.txt', 'generators/templates/server/data/config/sentry.txt')
+     
+  // //////sql
 
 
-          ///////src
+  //   fse.copySync('_generators/templates/server/data/config/sql/_alerts.sql', 'generators/templates/server/data/config/sql/alerts.sql')
+  //   fse.copySync('_generators/templates/server/data/config/sql/_minmax.sql', 'generators/templates/server/data/config/sql/minmax.sql')
+  //   fse.copySync('_generators/templates/server/data/config/sql/_solutions.sql', 'generators/templates/server/data/config/sql/solutions.sql')
+  //   fse.copySync('_generators/templates/server/data/config/sql/_status.sql', 'generators/templates/server/data/config/sql/status.sql')
+  //   fse.copySync('_generators/templates/server/data/config/sql/_wetndry.sql', 'generators/templates/server/data/config/sql/wetndry.sql')
 
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/_config.js'),
-    this.destinationPath('generators/templates/server/src/config.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/_list.js'),
-    this.destinationPath('generators/templates/server/src/list.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/_refresh.js'),
-    this.destinationPath('generators/templates/server/src/refresh.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/_refresh.test.js'),
-    this.destinationPath('generators/templates/server/src/config.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/_server.js'),
-    this.destinationPath('generators/templates/server/src/server.js'));
-              //////config
+
+
   
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_database.js'),
-    this.destinationPath('generators/templates/server/src/config/database.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_database.test.js'),
-    this.destinationPath('generators/templates/server/src/config/database.test.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_locations.js'),
-    this.destinationPath('generators/templates/server/src/config/locations.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_locations.test.js'),
-    this.destinationPath('generators/templates/server/src/config/locations.test.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_logging.js'),
-    this.destinationPath('generators/templates/server/src/config/logging.js'));
+  //       /////logs
 
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_logging.test.js'),
-    this.destinationPath('generators/templates/server/src/config/logging.test.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_tracker.js'),
-    this.destinationPath('generators/templates/server/src/config/tracker.js'));
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/src/config/_tracker.test.js'),
-    this.destinationPath('generators/templates/server/src/config/tracker.js'));
+  //   fse.copySync('_generators/templates/server/data/logs/_gitkeep', 'generators/templates/server/data/logs/.gitkeep')
 
-  this.fs.copy(
-    this.templatePath('_generators/templates/server/_gulpfile.js'),
-    this.destinationPath('generators/templates/server/src/config/gulpfile.js'));
+
+  //   ///.gitkeep
+
+     
+
+  //         ///////src
+  //     fse.copySync('_generators/templates/server/src/_config.js', 'generators/templates/server/src/config.js')
+  //     fse.copySync('_generators/templates/server/src/_list.js', 'generators/templates/server/src/list.js')
+  //     fse.copySync('_generators/templates/server/src/_refresh.js', 'generators/templates/server/src/refresh.js')
+  //     fse.copySync('_generators/templates/server/src/_refresh.test.js', 'generators/templates/server/src/refresh.test.js')
+  //     fse.copySync('_generators/templates/server/src/_server.js', 'generators/templates/server/src/server.js')
+         
 
 
 
+  //             //////config
+  
+  //     fse.copySync('_generators/templates/server/src/config/_database.js', 'generators/templates/server/src/config/_database.js')
+  //     fse.copySync('_generators/templates/server/src/config/_database.test.js', 'generators/templates/server/src/config/_database.test.js')
+  //     fse.copySync('_generators/templates/server/src/config/_locations.js', 'generators/templates/server/src/config/_locations.js')
+  //     fse.copySync('_generators/templates/server/src/config/_locations.test.js', 'generators/templates/server/src/config/_locations.test.js')
+  //     fse.copySync('_generators/templates/server/src/config/_logging.js', 'generators/templates/server/src/config/_logging.js')
+  //     fse.copySync('_generators/templates/server/src/config/_logging.test.js', 'generators/templates/server/src/config/_logging.test.js')
+  //     fse.copySync('_generators/templates/server/src/config/_tracker.js', 'generators/templates/server/src/config/_tracker.js')
+  //     fse.copySync('_generators/templates/server/src/config/_tracker.tets.js', 'generators/templates/server/src/config/_tracker.test.js')
+             
 
-  this.fs.copy(
-    this.templatePath('_editorconfig'),
-    this.destinationPath('editorconfig'));
-
-  this.fs.copy(
-    this.templatePath('_eslintignore'),
-    this.destinationPath('.eslintignore'));
-
- 
-  this.fs.copy(
-    this.templatePath('_gitattributes'),
-    this.destinationPath('.gitattributes'));
+  
 
 
-  this.fs.copy(
-    this.templatePath('_gitignore'),
-    this.destinationPath('.gitignore'));
 
-  this.fs.copy(
-    this.templatePath('_travis.yml'),
-    this.destinationPath('.travis.yml'));
+  //     fse.copySync('_generators/templates/server/_gulpfile.js', 'generators/templates/server/gulpfile.js')
+  //     fse.copySync('_editorconfig', '.editorconfig')
+  //     fse.copySync('_eslintignore', '.eslintignore')
+  //     fse.copySync('_gitattributes', '.gitattributes')
+  //     fse.copySync('_gitignore', '.gitignore')
+  //     fse.copySync('_travis.yml', '.travis.ym')
+  //     fse.copySync('_yo-rc.json', '.yo-rc.json')
 
-  this.fs.copy(
-    this.templatePath('_yo-rc.json'),
-    this.destinationPath('.yo-rc.json'));
 
   }
 
