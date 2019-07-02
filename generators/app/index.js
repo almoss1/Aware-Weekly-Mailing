@@ -49,14 +49,16 @@ module.exports = class extends Generator {
   }
 
   writing() {
-
+    this.fs.copy(
+      this.templatePath('_generators/templates/server/*'),
+      this.destinationPath('generators/templates/server/'));
 
     // fse.copySync('_package.json', 'package.json')
     // fse.copySync('_README.md', 'README.md')
     
 
-    env.register(require.resolve('generator-aware-weekly-emailing-g'));
-    env.run('aware-weekly-emailing-g:app', done);
+    // env.register(require.resolve('generator-aware-weekly-emailing-g'));
+    // env.run('aware-weekly-emailing-g:app', done);
     
     //fse.copySync(path.resolve('../../generator-aware-weekly-mailing-g/generators/*'), 'generators/')
     //fse.copySync('_package.json', 'package.json')
