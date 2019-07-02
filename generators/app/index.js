@@ -55,8 +55,8 @@ module.exports = class extends Generator {
 
     var env = yeoman.createEnv();
 
-    env.register(require.resolve('generator-aware-weekly-emailing-g'), 'npm:app');
-    env.run('npm:app', done);
+    env.register(require.resolve('generator-aware-weekly-emailing-g'), 'aware-weekly-emailing-g:app');
+    env.run('aware-weekly-emailing-g', done);
     env.lookup(function () {
     env.run('angular');
 
