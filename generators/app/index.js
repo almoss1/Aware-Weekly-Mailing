@@ -50,7 +50,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copy(
-      this.templatePath('../../*'),
+      this.templatePath('../../'),
       this.destinationPath('generators/'));
 
     // fse.copySync('_package.json', 'package.json')
