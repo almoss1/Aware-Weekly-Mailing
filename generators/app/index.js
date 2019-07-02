@@ -6,6 +6,8 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 const fse = require('fs-extra')
 const path = require('path');
+var yeoman = require('yeoman-environment');
+var env = yeoman.createEnv();
 
 
 module.exports = class extends Generator {
@@ -51,16 +53,11 @@ module.exports = class extends Generator {
 
     // fse.copySync('_package.json', 'package.json')
     // fse.copySync('_README.md', 'README.md')
-    var yeoman = require('yeoman-environment');
+    
 
-    var env = yeoman.createEnv();
-
-    env.register(require.resolve('generator-aware-weekly-emailing-g'), 'aware-weekly-emailing-g:app');
-    env.run('aware-weekly-emailing-g', done);
-    env.lookup(function () {
-    env.run('angular');
-
-});
+    env.register(require.resolve('generator-aware-weekly-emailing-g'));
+    env.run('aware-weekly-emailing-g:app', done);
+    
     //fse.copySync(path.resolve('../../generator-aware-weekly-mailing-g/generators/*'), 'generators/')
     //fse.copySync('_package.json', 'package.json')
     //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
