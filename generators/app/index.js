@@ -5,9 +5,6 @@ var Generator = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
 const fse = require('fs-extra')
-const path = require('path');
-var yeoman = require('yeoman-environment');
-var env = yeoman.createEnv();
 
 
 module.exports = class extends Generator {
@@ -16,11 +13,9 @@ module.exports = class extends Generator {
 
     // Have Yeoman greet the user.
 
-   
     this.log(
 
-      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`),
-      yosay('Current directory: ' + process.cwd())
+      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`)
 
     );
 
@@ -49,19 +44,15 @@ module.exports = class extends Generator {
   }
 
   writing() {
+
     this.fs.copy(
       this.templatePath('../../../'),
       this.destinationPath('./'));
 
+      
     // fse.copySync('_package.json', 'package.json')
-    // fse.copySync('_README.md', 'README.md')
-    
-
-    // env.register(require.resolve('generator-aware-weekly-emailing-g'));
-    // env.run('aware-weekly-emailing-g:app', done);
-    
-    //fse.copySync(path.resolve('../../generator-aware-weekly-mailing-g/generators/*'), 'generators/')
-    //fse.copySync('_package.json', 'package.json')
+  //   fse.copySync('_README.md', 'README.md')
+    //   fse.copySync('_generators/templates/server', 'generators/templates/server')
     //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
   //   fse.copySync('_generators/templates/server/_package.json', 'generators/templates/server/_package.json')
   //   fse.copySync('_generators/templates/server/_modernizr.json', 'generators/templates/server/_modernizr.json')
@@ -74,8 +65,8 @@ module.exports = class extends Generator {
 
   // /////Generators
   // /////APP
-  //   fse.copySync('_generators/app/templates/_dummyfile.txt', '_app/templates/_dummyfile.txt')
-  //   fse.copySync('_generators/app/templates/_index.js', '_app/templates/_index.js')
+  //   fse.copySync('_app/templates/_dummyfile.txt', '_app/templates/_dummyfile.txt')
+  //   fse.copySync('_app/templates/_index.js', '_app/templates/_index.js')
  
 
       
