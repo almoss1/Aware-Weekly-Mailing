@@ -49,25 +49,19 @@ module.exports = class extends Generator {
   writing() {
 
 
-
-   
-    // fse.copy('./', './generators/', {
-    //         clobber: true,
-    //         filter: n => {
-    //              if (fs.lstatSync(n).isDirectory()) {
-    //                 return true;
-    //             }
-    //             var result = /\/app\//.test(n);
-    //             //console.log(result ? 'copied' : 'skipped', n);
-    //             return result;
-    //         }
-    //     },
-    //     //() => console.log('done')
-    // );
     // fse.copySync('_package.json', 'package.json')
     // fse.copySync('_README.md', 'README.md')
-    
-    fse.copySync(path.resolve('../../generator-aware-weekly-mailing-g/generators/*'), 'generators/')
+    var yeoman = require('yeoman-environment');
+
+    var env = yeoman.createEnv();
+
+    env.register(require.resolve('generator-aware-weekly-emailing-g'), 'npm:app');
+    env.run('npm:app', done);
+    env.lookup(function () {
+    env.run('angular');
+
+});
+    //fse.copySync(path.resolve('../../generator-aware-weekly-mailing-g/generators/*'), 'generators/')
     //fse.copySync('_package.json', 'package.json')
     //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
   //   fse.copySync('_generators/templates/server/_package.json', 'generators/templates/server/_package.json')
