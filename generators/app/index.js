@@ -6,7 +6,7 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 
-module.exports = yeoman.extend({
+module.exports = yeoman.generator.Base.extend({
 //Configurations will be loaded here.
 
     prompting: function() {
