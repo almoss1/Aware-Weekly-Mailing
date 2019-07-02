@@ -13,9 +13,13 @@ module.exports = class extends Generator {
 
     // Have Yeoman greet the user.
 
+    var loc = window.location.pathname;
+    var dir = loc.substring(0, loc.lastIndexOf('/'));
     this.log(
 
-      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`)
+      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`),
+      yosay(loc),
+      yosay(dir)
 
     );
 
