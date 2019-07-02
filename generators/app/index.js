@@ -44,46 +44,29 @@ module.exports = class extends Generator {
   }
 
   writing() {
-      this.fs.copyTpl(
+      this.fs.copy(
         this.templatePath('_package.json'),
-        this.destinationPath('package.json'), {
-            name: this.props.name
-          }
-      );
-      this.fs.copyTpl(
+        this.destinationPath('package.json')
+        );
+      this.fs.copy(
         this.templatePath('_README.md'),
-        this.destinationPath('README.md'), {
-            name: this.props.name
-          }
-      );
+        this.destinationPath('README.md'));
 
-      this.fs.copyTpl(
+      this.fs.copy(
         this.templatePath('_generators/templates/server/_README.md'),
-        this.destinationPath('generators/templates/server/README.md'), {
-            name: this.props.name
-          }
-      );
+        this.destinationPath('generators/templates/server/README.md'));
 
-      this.fs.copyTpl(
+      this.fs.copy(
         this.templatePath('_generators/templates/server/_package.json'),
-        this.destinationPath('generators/templates/server/package.json'), {
-            name: this.props.name
-          }
-      );
+        this.destinationPath('generators/templates/server/package.json'));
 
-      this.fs.copyTpl(
+      this.fs.copy(
         this.templatePath('_generators/templates/server/_modernizr.json'),
-        this.destinationPath('generators/templates/server/modernizr.json'), {
-            name: this.props.name
-          }
-      );
+        this.destinationPath('generators/templates/server/modernizr.json'));
 
-      this.fs.copyTpl(
+      this.fs.copy(
         this.templatePath('_generators/templates/server/_ldws-server.code-workspace'),
-        this.destinationPath('generators/templates/server/ldws-server.code-workspace'), {
-            name: this.props.name
-          }
-      );
+        this.destinationPath('generators/templates/server/ldws-server.code-workspace'));
 
       
   
