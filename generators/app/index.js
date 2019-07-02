@@ -50,7 +50,7 @@ module.exports = class extends Generator {
 
     // fse.copySync('_package.json', 'package.json')
     // fse.copySync('_README.md', 'README.md')
-    fse.copySync('/../generators/templates/server/*', 'generators/templates/server/')
+    // fse.copySync('/../generators/templates/server/*', 'generators/templates/server/')
     //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
   //   fse.copySync('_generators/templates/server/_package.json', 'generators/templates/server/_package.json')
   //   fse.copySync('_generators/templates/server/_modernizr.json', 'generators/templates/server/_modernizr.json')
