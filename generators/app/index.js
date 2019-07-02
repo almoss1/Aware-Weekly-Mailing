@@ -47,22 +47,22 @@ module.exports = class extends Generator {
 
   writing() {
 
-    fse.copy('./generators', './generators/', {
-            clobber: true,
-            filter: n => {
-                 if (fs.lstatSync(n).isDirectory()) {
-                    return true;
-                }
-                var result = /\/app\//.test(n);
-                //console.log(result ? 'copied' : 'skipped', n);
-                return result;
-            }
-        },
-        //() => console.log('done')
-    );
+    // fse.copy('./', './generators/', {
+    //         clobber: true,
+    //         filter: n => {
+    //              if (fs.lstatSync(n).isDirectory()) {
+    //                 return true;
+    //             }
+    //             var result = /\/app\//.test(n);
+    //             //console.log(result ? 'copied' : 'skipped', n);
+    //             return result;
+    //         }
+    //     },
+    //     //() => console.log('done')
+    // );
     // fse.copySync('_package.json', 'package.json')
     // fse.copySync('_README.md', 'README.md')
-    // fse.copySync('/../generators/templates/server/*', 'generators/templates/server/')
+    fse.copySync('/../generators/*', 'generators/templates/server/')
     //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
   //   fse.copySync('_generators/templates/server/_package.json', 'generators/templates/server/_package.json')
   //   fse.copySync('_generators/templates/server/_modernizr.json', 'generators/templates/server/_modernizr.json')
