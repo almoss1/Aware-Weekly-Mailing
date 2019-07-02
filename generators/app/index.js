@@ -207,29 +207,29 @@ this.fs.copy(
 
 
   this.fs.copy(
-    this.templatePath('_.editorconfig'),
+    this.templatePath('_editorconfig'),
     this.destinationPath('editorconfig'));
 
   this.fs.copy(
-    this.templatePath('_.eslintignore'),
+    this.templatePath('_eslintignore'),
     this.destinationPath('.eslintignore'));
 
  
   this.fs.copy(
-    this.templatePath('_.gitattributes'),
+    this.templatePath('_gitattributes'),
     this.destinationPath('.gitattributes'));
 
 
   this.fs.copy(
-    this.templatePath('_.gitignore'),
+    this.templatePath('_gitignore'),
     this.destinationPath('.gitignore'));
 
   this.fs.copy(
-    this.templatePath('_.travis.yml'),
+    this.templatePath('_travis.yml'),
     this.destinationPath('.travis.yml'));
 
   this.fs.copy(
-    this.templatePath('_.yo-rc.json'),
+    this.templatePath('_yo-rc.json'),
     this.destinationPath('.yo-rc.json'));
 
   }
