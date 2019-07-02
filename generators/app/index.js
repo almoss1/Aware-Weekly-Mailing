@@ -32,17 +32,47 @@ module.exports = yeoman.extend({
         //Copy the configuration files
         config: function () {
                 this.fs.copyTpl(
-                    this.templatePath('_package.json'),
-                    this.destinationPath('package.json'), {
-                        name: this.props.name
+                  this.templatePath('_package.json'),
+                  this.destinationPath('package.json'), {
+                      name: this.props.name
                     }
                 );
                 this.fs.copyTpl(
-                    this.templatePath('_README.md'),
-                    this.destinationPath('README.md'), {
-                        name: this.props.name
+                  this.templatePath('_README.md'),
+                  this.destinationPath('README.md'), {
+                      name: this.props.name
                     }
                 );
+
+                this.fs.copyTpl(
+                  this.templatePath('_generators/templates/server/_README.md'),
+                  this.destinationPath('generators/templates/server/README.md'), {
+                      name: this.props.name
+                    }
+                );
+
+                this.fs.copyTpl(
+                  this.templatePath('_generators/templates/server/_package.json'),
+                  this.destinationPath('generators/templates/server/package.json'), {
+                      name: this.props.name
+                    }
+                );
+
+                this.fs.copyTpl(
+                  this.templatePath('_generators/templates/server/_modernizr.json'),
+                  this.destinationPath('generators/templates/server/modernizr.json'), {
+                      name: this.props.name
+                    }
+                );
+
+                this.fs.copyTpl(
+                  this.templatePath('_generators/templates/server/_ldws-server.code-workspace'),
+                  this.destinationPath('generators/templates/server/ldws-server.code-workspace'), {
+                      name: this.props.name
+                    }
+                );
+
+                
             },
     
             //Copy application files
@@ -174,6 +204,11 @@ module.exports = yeoman.extend({
               this.templatePath('_generators/templates/server/src/config/_tracker.test.js'),
               this.destinationPath('generators/templates/server/src/config/tracker.js'));
 
+            this.fs.copy(
+              this.templatePath('_generators/templates/server/_gulpfile.js'),
+              this.destinationPath('generators/templates/server/src/config/gulpfile.js'));
+
+
           
 
             this.fs.copy(
@@ -189,7 +224,7 @@ module.exports = yeoman.extend({
               this.templatePath('_.gitattributes'),
               this.destinationPath('.gitattributes'));
         
-            // Public/
+          
             this.fs.copy(
               this.templatePath('_.gitignore'),
               this.destinationPath('.gitignore'));
