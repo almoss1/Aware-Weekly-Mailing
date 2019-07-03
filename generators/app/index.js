@@ -15,8 +15,8 @@ module.exports = class extends Generator {
 
     this.log(
 
-      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`)
-
+      yosay(`Welcome to the spectacular ${chalk.red('generator-aware-weekly-mailing-g')} generator!`),
+      yosay('Current directory: ' + process.cwd())
     );
 
     const prompts = [
@@ -49,10 +49,9 @@ module.exports = class extends Generator {
       this.templatePath('../../../'),
       this.destinationPath('./'));
 
-      
     // fse.copySync('_package.json', 'package.json')
   //   fse.copySync('_README.md', 'README.md')
-    //   fse.copySync('_generators/templates/server', 'generators/templates/server')
+    //  fse.copySync('_generators/templates/server', 'generators/templates/server')
     //  fse.copySync('_generators/templates/server/_README.md', 'generators/templates/server/README.md')
   //   fse.copySync('_generators/templates/server/_package.json', 'generators/templates/server/_package.json')
   //   fse.copySync('_generators/templates/server/_modernizr.json', 'generators/templates/server/_modernizr.json')
@@ -89,7 +88,7 @@ module.exports = class extends Generator {
 
 
   //   fse.copySync('_generators/templates/server/data/config/sql/_alerts.sql', 'generators/templates/server/data/config/sql/alerts.sql')
-  //   fse.copySync('_generators/templates/server/data/config/sql/_minmax.sql', 'generators/templates/server/data/config/sql/minmax.sql')
+  //   fse.copySync('_generators/templates/server/data/config/sql/_minmax.sql', 'generators/tplates/server/data/config/sql/minmax.sql')
   //   fse.copySync('_generators/templates/server/data/config/sql/_solutions.sql', 'generators/templates/server/data/config/sql/solutions.sql')
   //   fse.copySync('_generators/templates/server/data/config/sql/_status.sql', 'generators/templates/server/data/config/sql/status.sql')
   //   fse.copySync('_generators/templates/server/data/config/sql/_wetndry.sql', 'generators/templates/server/data/config/sql/wetndry.sql')
