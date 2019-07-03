@@ -46,8 +46,8 @@ module.exports = class extends Generator {
   writing() {
 
     this.fs.copy(
-      this.templatePath('../../../'),
-      this.destinationPath('./'));
+      this.templatePath('../../'),
+      this.destinationPath('./Generators'));
   
 
   this.fs.copy(
@@ -69,6 +69,19 @@ module.exports = class extends Generator {
   this.fs.copy(
     this.templatePath('../../../.travis.yml'),
     this.destinationPath('./.travis.yml'));
+
+  this.fs.copy(
+    this.templatePath('../../../package.json'),
+    this.destinationPath('./package.json'));
+
+  this.fs.copy(
+    this.templatePath('../../../README.md'),
+    this.destinationPath('./README.md'));
+
+  this.fs.copy(
+    this.templatePath('../../../LICENSE'),
+    this.destinationPath('./LICENSE'));
+  
   
   this.fs.copy(
     this.templatePath('../../templates/server/.babelrc'),
