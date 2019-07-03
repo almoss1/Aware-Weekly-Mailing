@@ -7,7 +7,7 @@
     "email": "alexm@buildinglink.com"
   },
   "files": [
-    "/rf*"
+    "generator-aware-weekly-mailing-g"
   ],
   "main": "generators/app/index.js",
   "repository": "https://github.com/almoss1/Aware-Weekly-Mailing",
