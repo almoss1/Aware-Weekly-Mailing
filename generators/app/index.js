@@ -81,7 +81,7 @@ module.exports = class extends Generator {
     this.destinationPath('generators/templates/server/.env'));
   
   this.fs.copy(
-    this.templatePath('../templates/server/.gitattributes'),
+    this.templatePath('../../templates/server/.gitattributes'),
     this.destinationPath('generators/templates/server/.gitattributes'));
   }
 
