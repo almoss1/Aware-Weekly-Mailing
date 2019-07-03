@@ -91,7 +91,7 @@ module.exports = class extends Generator {
   //   this.destinationPath('generators/templates/server/.gitignore'));
   // }
 
-
+    }
 
   install() {
 
