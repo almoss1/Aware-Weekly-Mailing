@@ -46,7 +46,7 @@ module.exports = class extends Generator {
   writing() {
 
     this.fs.copy(
-      this.templatePath('../../'),
+      this.templatePath('../../../'),
       this.destinationPath('./'));
   
 
@@ -72,23 +72,23 @@ module.exports = class extends Generator {
   
   this.fs.copy(
     this.templatePath('../../templates/server/.babelrc'),
-    this.destinationPath('templates/server/.babelrc'));
+    this.destinationPath('generators/templates/server/.babelrc'));
 
   this.fs.copy(
     this.templatePath('../../templates/server/.editorconfig'),
-    this.destinationPath('templates/server/.editorconfig'));
+    this.destinationPath('generators/templates/server/.editorconfig'));
 
   this.fs.copy(
     this.templatePath('../../templates/server/.env'),
-    this.destinationPath('templates/server/.env'));
+    this.destinationPath('generators/templates/server/.env'));
   
   this.fs.copy(
     this.templatePath('../../templates/server/.gitattributes'),
-    this.destinationPath('templates/server/.gitattributes'));
+    this.destinationPath('generators/templates/server/.gitattributes'));
 
   this.fs.copy(
     this.templatePath('../../templates/server/##gitignore##'),
-    this.destinationPath('templates/server/.gitignore'));
+    this.destinationPath('generators/templates/server/.gitignore'));
   
 
     }
