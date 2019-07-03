@@ -46,50 +46,50 @@ module.exports = class extends Generator {
   writing() {
 
     this.fs.copy(
-      this.templatePath('../../../'),
+      this.templatePath('../../'),
       this.destinationPath('./'));
   
 
-  this.fs.copy(
-    this.templatePath('../../../.editorconfig'),
-    this.destinationPath('./.editorconfig'));
+  // this.fs.copy(
+  //   this.templatePath('../../../.editorconfig'),
+  //   this.destinationPath('./.editorconfig'));
 
-  this.fs.copy(
-    this.templatePath('../../../.eslintignore'),
-    this.destinationPath('./.eslintignore'));
+  // this.fs.copy(
+  //   this.templatePath('../../../.eslintignore'),
+  //   this.destinationPath('./.eslintignore'));
 
-  this.fs.copy(
-    this.templatePath('../../../.gitattributes'),
-    this.destinationPath('./.gitattributes'));
+  // this.fs.copy(
+  //   this.templatePath('../../../.gitattributes'),
+  //   this.destinationPath('./.gitattributes'));
 
-  this.fs.copy(
-    this.templatePath('../../../##gitignore##'),
-    this.destinationPath('./.gitignore'));
+  // this.fs.copy(
+  //   this.templatePath('../../../##gitignore##'),
+  //   this.destinationPath('./.gitignore'));
 
-  this.fs.copy(
-    this.templatePath('../../../.travis.yml'),
-    this.destinationPath('./.travis.yml'));
+  // this.fs.copy(
+  //   this.templatePath('../../../.travis.yml'),
+  //   this.destinationPath('./.travis.yml'));
   
-  this.fs.copy(
-    this.templatePath('../../templates/server/.babelrc'),
-    this.destinationPath('generators/templates/server/.babelrc'));
+  // this.fs.copy(
+  //   this.templatePath('../../templates/server/.babelrc'),
+  //   this.destinationPath('generators/templates/server/.babelrc'));
 
-  this.fs.copy(
-    this.templatePath('../../templates/server/.editorconfig'),
-    this.destinationPath('generators/templates/server/.editorconfig'));
+  // this.fs.copy(
+  //   this.templatePath('../../templates/server/.editorconfig'),
+  //   this.destinationPath('generators/templates/server/.editorconfig'));
 
-  this.fs.copy(
-    this.templatePath('../../templates/server/.env'),
-    this.destinationPath('generators/templates/server/.env'));
+  // this.fs.copy(
+  //   this.templatePath('../../templates/server/.env'),
+  //   this.destinationPath('generators/templates/server/.env'));
   
-  this.fs.copy(
-    this.templatePath('../../templates/server/.gitattributes'),
-    this.destinationPath('generators/templates/server/.gitattributes'));
+  // this.fs.copy(
+  //   this.templatePath('../../templates/server/.gitattributes'),
+  //   this.destinationPath('generators/templates/server/.gitattributes'));
 
-  this.fs.copy(
-    this.templatePath('../../templates/server/##gitignore##'),
-    this.destinationPath('generators/templates/server/.gitignore'));
-  }
+  // this.fs.copy(
+  //   this.templatePath('../../templates/server/##gitignore##'),
+  //   this.destinationPath('generators/templates/server/.gitignore'));
+  // }
 
 
 
