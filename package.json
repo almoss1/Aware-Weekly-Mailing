@@ -6,9 +6,7 @@
     "name": "Alex Mosseri",
     "email": "alexm@buildinglink.com"
   },
-  "files": [
-    "generator-aware-weekly-mailing-g"
-  ],
+  
   "main": "generators/app/index.js",
   "repository": "https://github.com/almoss1/Aware-Weekly-Mailing",
   "keywords": [
