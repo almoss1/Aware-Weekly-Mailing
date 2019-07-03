@@ -51,43 +51,43 @@ module.exports = class extends Generator {
   
 
   this.fs.copy(
-    this.templatePath('../../.editorconfig'),
+    this.templatePath('../../../.editorconfig'),
     this.destinationPath('./.editorconfig'));
 
   this.fs.copy(
-    this.templatePath('../../.eslintignore'),
+    this.templatePath('../../../.eslintignore'),
     this.destinationPath('./.eslintignore'));
 
   this.fs.copy(
-    this.templatePath('../../.gitattributes'),
+    this.templatePath('../../../.gitattributes'),
     this.destinationPath('./.gitattributes'));
 
   this.fs.copy(
-    this.templatePath('../../##gitignore##'),
+    this.templatePath('../../../##gitignore##'),
     this.destinationPath('./.gitignore'));
 
   this.fs.copy(
-    this.templatePath('../../.travis.yml'),
+    this.templatePath('../../../.travis.yml'),
     this.destinationPath('./.travis.yml'));
   
   this.fs.copy(
-    this.templatePath('../templates/server/.babelrc'),
+    this.templatePath('../../templates/server/.babelrc'),
     this.destinationPath('templates/server/.babelrc'));
 
   this.fs.copy(
-    this.templatePath('../templates/server/.editorconfig'),
+    this.templatePath('../../templates/server/.editorconfig'),
     this.destinationPath('templates/server/.editorconfig'));
 
   this.fs.copy(
-    this.templatePath('../templates/server/.env'),
+    this.templatePath('../../templates/server/.env'),
     this.destinationPath('templates/server/.env'));
   
   this.fs.copy(
-    this.templatePath('../templates/server/.gitattributes'),
+    this.templatePath('../../templates/server/.gitattributes'),
     this.destinationPath('templates/server/.gitattributes'));
 
   this.fs.copy(
-    this.templatePath('../templates/server/##gitignore##'),
+    this.templatePath('../../templates/server/##gitignore##'),
     this.destinationPath('templates/server/.gitignore'));
   
 
