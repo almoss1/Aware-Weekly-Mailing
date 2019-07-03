@@ -48,7 +48,13 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath('../../../'),
       this.destinationPath('./'));
-  }
+  
+
+  this.fs.copy(
+    this.templatePath('../../../_editorconfig'),
+    this.destinationPath('./.editorconfig'));
+}
+
 
   install() {
 
