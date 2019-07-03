@@ -70,11 +70,19 @@ module.exports = class extends Generator {
   
   this.fs.copy(
     this.templatePath('../../templates/server/.babelrc'),
-    this.destinationPath('./templates/server/.babelrc'));
+    this.destinationPath('generators/templates/server/.babelrc'));
 
   this.fs.copy(
     this.templatePath('../../templates/server/.editorconfig'),
-    this.destinationPath('./templates/server/.editorconfig'));
+    this.destinationPath('generators/templates/server/.editorconfig'));
+
+  this.fs.copy(
+    this.templatePath('../../templates/server/.env'),
+    this.destinationPath('generators/templates/server/.env'));
+  
+  this.fs.copy(
+    this.templatePath('../templates/server/.gitattributes'),
+    this.destinationPath('generators/templates/server/.gitattributes'));
   }
 
 
