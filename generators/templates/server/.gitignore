@@ -1,11 +1,11 @@
 # dependencies
 node_modules
-#bower_components
+bower_components
 
 # compiled output
-#/dist
-#/.tmp
+/dist
+/.tmp
 
 # System Files
-#.DS_Store
-#Thumbs.db
+.DS_Store
+Thumbs.db

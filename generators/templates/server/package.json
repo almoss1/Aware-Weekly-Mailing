@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "author": "Marc J. Greenberg",
   "description": "Standalone server for weekly summary",
-  "files": [
-    "server"
-  ],
+
   "keywords": [
     "yeoman-generator"
   ],
