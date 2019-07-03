@@ -51,7 +51,7 @@ module.exports = class extends Generator {
   
 
   this.fs.copy(
-    this.templatePath('../../../_editorconfig'),
+    this.templatePath('../../../.editorconfig'),
     this.destinationPath('./.editorconfig'));
 }
 
