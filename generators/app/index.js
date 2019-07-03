@@ -53,7 +53,28 @@ module.exports = class extends Generator {
   this.fs.copy(
     this.templatePath('../../../.editorconfig'),
     this.destinationPath('./.editorconfig'));
-}
+
+  this.fs.copy(
+    this.templatePath('../../../.eslintignore'),
+    this.destinationPath('./.eslintignore'));
+
+  this.fs.copy(
+    this.templatePath('../../../.gitattributes'),
+    this.destinationPath('./.gitattributes'));
+
+  this.fs.copy(
+    this.templatePath('../../../.gitignore'),
+    this.destinationPath('./.gitignore'));
+
+  this.fs.copy(
+    this.templatePath('../../../.travis.yml'),
+    this.destinationPath('./.travis.yml'));
+  
+  this.fs.copy(
+    this.templatePath('../templates/server/.babelrc'),
+    this.destinationPath('./templates/server/.babelrc'));
+  }
+
 
 
   install() {
